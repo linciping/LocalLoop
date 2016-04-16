@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/nearpeople_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/load_backgroud_64" />
+
+    <TextView
+        android:id="@+id/nearpeople_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/nearpeople_icon"
+        android:text="姓名" />
+
+    <ImageView
+        android:id="@+id/nearpeople_sex_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/nearpeople_username"
+        android:src="@drawable/load_backgroud_24" />
+
+    <Button
+        android:id="@+id/nearpeople_level"
+        android:layout_width="32dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/nearpeople_sex_icon"
+        android:background="@color/nav_txt_check"
+        android:text="等级"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/nearpeople_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nearpeople_username"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/nearpeople_icon"
+        android:text="距离"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/nearpeople_description"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="4dp"
+        android:text="个人简介"
+        android:textSize="8sp" />
+
+</RelativeLayout>

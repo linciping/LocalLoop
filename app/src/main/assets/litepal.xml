@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litpal>
+
+    <dbname value="localloop" />
+    <version value="2" />
+    <list>
+        <mapping name="com.mengyou.localloop.model.MessageCache"></mapping>
+    </list>
+</litpal>

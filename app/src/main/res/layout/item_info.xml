@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:orientation="horizontal">
+
+    <EditText
+        android:hint="空泛的说明是没人想报名..."
+        android:textSize="12sp"
+        android:gravity="top"
+        android:id="@+id/txt_description"
+        android:background="@drawable/edittext_background"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid_images"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/txt_description"
+        android:numColumns="5"/>
+</RelativeLayout>

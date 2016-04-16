@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mengyou.localloop.fragment.ContactsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/layout_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+                android:id="@+id/list_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/tv_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#AA888888"
+            android:padding="32dp"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <com.mengyou.library.view.SideBar
+            android:id="@+id/kp_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:background="@android:color/transparent"
+            android:color="@color/colorPrimary"
+            android:entries="@array/keys"
+            android:padding="8dp"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+</LinearLayout>

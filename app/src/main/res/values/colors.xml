@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#454545</color>
+    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorAccent">#259b24</color>
+    <color name="white">#ffffff</color>
+    <color name="navigationBarColor">#f2f1ef</color>
+    <color name="nav_txt_check">#eca900</color>
+    <color name="nav_txt_normal">#7c7c7c</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="grey">#f0eff4</color>
+
+    <color name="common_blue">#2c97e8</color>
+    <color name="common_gray">#898989</color>
+
+    <color name="divider_line_color">#afafaf</color>
+
+    <color name="login_activity_bg">#efefef</color>
+</resources>

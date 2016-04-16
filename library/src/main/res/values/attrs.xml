@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyPad">
+        <attr name="android:color"/>
+        <attr name="android:padding"/>
+        <attr name="android:textSize"/>
+        <attr name="android:entries"/>
+    </declare-styleable>
+</resources>

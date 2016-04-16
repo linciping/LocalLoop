@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="keys">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </array>
+
+    <array name="theme">
+        <item>旅行</item>
+        <item>吃饭</item>
+        <item>电影</item>
+        <item>唱歌</item>
+        <item>运动</item>
+        <item>其它</item>
+        <item>取消</item>
+    </array>
+
+    <array name="time">
+        <item>不限时间</item>
+        <item>平时周末</item>
+        <item>指定日期</item>
+        <item>取消</item>
+    </array>
+
+    <array name="object">
+        <item>不限</item>
+        <item>男</item>
+        <item>女</item>
+    </array>
+
+    <array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </array>
+
+    <array name="buy">
+        <item>AA</item>
+        <item>我买单</item>
+        <item>你买单</item>
+    </array>
+    
+    <array name="choosepic">
+        <item>拍照</item>
+        <item>从相册中选择</item>
+        <item>取消</item>
+    </array>
+</resources>

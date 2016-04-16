@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:background="#454545"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mengyou.localloop.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/txt_password">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:textColor="@color/white"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_password"
+        android:textColorHint="@color/white"
+        android:id="@+id/txt_username">
+        <EditText
+            android:hint="账号"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <requestFocus/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:background="@drawable/btn_login_select"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:layout_below="@id/txt_password"/>
+</RelativeLayout>
